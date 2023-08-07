@@ -40,3 +40,11 @@ Example: ssh username@ip
 ### Input the password to establish the connection (every time).
 
 ![](password.PNG)
+
+<script src="https://utteranc.es/client.js"
+        repo="foxfromworld/utterances_comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -9,3 +9,11 @@ OK. Two images.
 ![](Cloud.jpg)
 
 ![](Bodhidharma.jpg)
+
+<script src="https://utteranc.es/client.js"
+        repo="foxfromworld/utterances_comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

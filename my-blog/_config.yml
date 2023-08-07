@@ -109,4 +109,3 @@ deploy:
   repo: git@github.com:foxfromworld/foxfromworld.github.io.git
   branch: master
   message:
-
