@@ -30,6 +30,14 @@ https://utteranc.es/
 </script>
 ```
 
+## Try leaving your message
+
+![](comment.PNG)
+
+![](permission.PNG)
+
+![](test.PNG)
+
 ## Ummm...The function is not working properly. I left one message under one post and it's appearing on every post.
 
 So I changed issue-term from "url" to "pathname" and the problem is still there...
