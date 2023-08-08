@@ -34,7 +34,7 @@ categories: Hexo
 ---
 ```
 
-## Disable comments in those pages.=
+## Disable comments in those pages.
 
 ```
 ---
