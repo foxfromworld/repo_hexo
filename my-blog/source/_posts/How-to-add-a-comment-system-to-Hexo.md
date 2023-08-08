@@ -42,10 +42,31 @@ https://utteranc.es/
 
 So I changed issue-term from "url" to "pathname" and the problem is still there...
 
+## I applied a new theme to my blog
+
+Add this setting to my-blog/themes/clean-blog/_config.yml
+
+```
+utterances:
+  enable: true
+```
+
+Addd the snippet to my-blog/themes/clean-blog/layout/_partial/comments.ejs
+
+```
+<div class="comments" id="comments">
 <script src="https://utteranc.es/client.js"
-        repo="foxfromworld/utterances_comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
+    repo="foxfromworld/utterances_comments"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
 </script>
+</div>
+```
+
+## Deploy your blog
+
+```
+hexo clean && hexo deploy
+```

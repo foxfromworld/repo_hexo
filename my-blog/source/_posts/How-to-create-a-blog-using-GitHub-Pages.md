@@ -132,11 +132,3 @@ It takes longer time for the first time. You should be able to see "Your site is
 ### Push all the changes
 
 https://github.com/foxfromworld/repo_hexo/tree/main/my-blog
-
-<script src="https://utteranc.es/client.js"
-        repo="foxfromworld/utterances_comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
