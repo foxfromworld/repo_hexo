@@ -1,7 +1,8 @@
 ---
 title: Remote development with terminal over SSH using Visual Studio Code
 date: 2023-08-03 18:23:56
-tags:
+tags: [Visual Studio Code, SSH]
+categories: Visual Studio Code
 ---
 
 ### Enable SSH on the server
