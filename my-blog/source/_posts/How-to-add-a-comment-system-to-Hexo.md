@@ -1,7 +1,8 @@
 ---
 title: How to add a comment system to Hexo
 date: 2023-08-07 15:04:28
-tags:
+tags: [Hexo, Utterances, comment]
+categories: Hexo
 ---
 
 ## Create a public repository to store install the comment system.

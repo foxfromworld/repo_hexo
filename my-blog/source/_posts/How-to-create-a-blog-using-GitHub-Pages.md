@@ -1,7 +1,8 @@
 ---
 title: How to create a blog using GitHub Pages
 date: 2023-07-31 19:43:04
-tags:
+tags: [Hexo, Github pages, blog]
+categories: Hexo
 ---
 
 ## Step by step

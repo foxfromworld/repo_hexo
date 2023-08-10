@@ -1,7 +1,8 @@
 ---
 title: How to embed images in Hexo posts
 date: 2023-08-03 15:06:44
-tags:
+tags: [Hexo, image]
+categories: Hexo
 ---
 
 ## Add lines below in _config.yml

@@ -1,7 +1,8 @@
 ---
 title: How to apply a new theme to Hexo
 date: 2023-08-08 11:12:07
-tags:
+tags: [Hexo, theme, clean-blog]
+categories: Hexo
 ---
 
 ## Download the theme
