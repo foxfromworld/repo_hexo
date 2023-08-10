@@ -154,3 +154,56 @@ sudo usermod -aG kvm $USER
 Then I got this...
 
 ![](error2.PNG)
+
+Tried to run /opt/docker-desktop/bin/com.docker.diagnose check
+
+```
+Starting diagnostics
+
+[PASS] DD0039: are KVM user permissions configured?
+[PASS] DD0018: does the host support virtualization?
+[PASS] DD0001: is the application running?
+[FAIL] DD0017: can a VM be started? vm has not started: failed to open kmsg.log: open /home/username/.docker/desktop/log/vm/kmsg.log: no such file or directory
+[FAIL] DD0016: is the LinuxKit VM running? prereq failed: can a VM be started?
+[FAIL] DD0011: are the LinuxKit services running? prereq failed: is the LinuxKit VM running?
+[FAIL] DD0004: is the Docker engine running? prereq failed: are the LinuxKit services running?
+[PASS] DD0015: are the binary symlinks installed?
+[FAIL] DD0031: does the Docker API work? prereq failed: is the Docker engine running?
+[PASS] DD0013: is the $PATH ok?
+[FAIL] DD0034: is Context set to a Docker Desktop context? CLI context is set to docker-ce engine
+[FAIL] DD0003: is the Docker CLI working? prereq failed: is the Docker engine running?
+[FAIL] DD0038: is the connection to Docker working? prereq failed: is the Docker engine running?
+[FAIL] DD0014: are the backend processes running? prereq failed: is the LinuxKit VM running?
+[FAIL] DD0007: is the backend responding? prereq failed: are the backend processes running?
+```
+
+Try to install LinuxKit
+
+```
+$ git clone https://github.com/linuxkit/linuxkit
+$ cd linuxkit
+$ sudo make
+$ sudo make install
+```
+
+The issue is still not solved. I even checked the setting of Intel virtualization technology and VT-d in the BIOS. They were already enabled...
+
+So I proceeded to install Jenkins...
+
+https://pkg.jenkins.io/debian/
+
+After the installation, browse to http://localhost:8080.
+
+![](unlock.PNG)
+
+Use the command below to get the password to unlock Jenkins.
+
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+Install suggested plugins and wait for the installation to finish.
+
+After the installation, create the first admin user
+
+At "Instance Configuration", click on "Save and Finish", then "Start using Jenkins".
