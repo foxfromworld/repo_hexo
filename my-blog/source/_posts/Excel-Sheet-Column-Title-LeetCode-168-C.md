@@ -36,6 +36,12 @@ Input: columnNumber = 701
 Output: "ZY"
 ```
 
+Constraints:
+
+```
+1 <= columnNumber <= 231 - 1
+```
+
 Approach
 
 The mapping should be like this.
